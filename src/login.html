@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="bg-[#0f0f0f] text-white">
+    <header class="border-[#272727] border-b-2">
+      <nav
+        class="flex items-center max-w-350 py-[20px] mx-auto justify-between text-[18px]"
+      >
+        <div class="lg:flex items-center gap-[10px] cursor-pointer hidden">
+          <img src="./imagesosaf/programmer.png" alt="" />
+          <p
+            class="text-[24px] text-blue-200 font-semibold"
+          >
+            Choose Your Programming Path
+          </p>
+        </div>
+
+        <div class="lg:flex gap-[40px] hidden">
+          <p class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]">
+            Home
+          </p>
+          <p class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]">
+            Frontend Path
+          </p>
+          <p class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]">
+            Backend Path
+          </p>
+          <p class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]">
+            Flutter Path
+          </p>
+          <p class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]">
+            Famous Developers
+          </p>
+        </div>
+
+        <div class="lg:flex gap-[10px] hidden">
+          <button
+            class="py-[15px] px-[20px] hover:text-gray-400 transition duration-300 hover:scale-110"
+          >
+            Login
+          </button>
+
+          <button
+            class="px-[20px] py-[5px] font-semibold rounded-[20px] bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 hover:scale-105 transition-all duration-300 shadow-lg"
+          >
+            Register
+          </button>
+        </div>
+
+        <h1 class="lg:hidden mx-auto text-[30px] font-bold">Login</h1>
+      </nav>
+    </header>
+
+    <div class="mt-[50px] flex justify-center max-w-300 mx-auto">
+        <div class="bg-[#60606070] border-2 border-[#9a9a9aa2] p-[35px] rounded-2xl">
+            <h1 class="text-[24px] font-bold pb-[2px] lg:text-[40px]">Welcome Back!</h1>
+
+            <p class="lg:hidden text-[16px] text-gray-400 pb-[25px]">Please log in to your account.</p>
+
+            <div class="pt-[30px]">
+                <div>
+                    <p class="pb-[5px]">Email Address</p>
+                    <div class="flex items-center gap-[10px] bg-[#101010] py-[10px] pl-[10px] pr-[30px] rounded-[10px] border-2 border-[#494949]">
+                        <img src="./imagesosaf/lucide-Mail-Outlined.svg" alt="">
+                        <input placeholder="your.email@example.com" type="email">
+                    </div>
+                </div>
+
+
+                <div>
+                    <p class="pt-[10px] pb-[5px]">Password</p>
+                    <div class="flex items-center gap-[10px] bg-[#101010] py-[10px] pl-[10px] pr-[30px] rounded-[10px] border-2 border-[#494949]">
+                        <img src="./imagesosaf/lucide-Lock-Outlined.svg" alt="">
+                        <input placeholder="Password" type="email">
+                    </div>
+                </div>
+            </div>
+
+            <button class="py-[10px] px-[110px] rounded-[10px] mt-[15px] bg-gradient-to-r from-[#5A71E2FF] to-[#55C1F6FF] hover:from-[#2b607a] hover:to-[#354595] hover:scale-105 hover:transition-colors hover:duration-600 hover:ease-in-out transition-all shadow-lg hover:text-gray-200">Login</button>
+
+            <p class="pt-[20px]">Don't have an account?<span class="text-blue-500"> Register here</span></p>
+        </div>
+    </div>
+  </body>
+</html>
