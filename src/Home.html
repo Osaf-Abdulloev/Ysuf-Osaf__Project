@@ -1,13 +1,15 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="./output.css">
-</head>
-<body  class="bg-[#0f0f0f] text-white">
-    <header class="border-[#272727] border-b-2">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="bg-[#0f0f0f] text-white">
+    <header
+      class="border-[#272727] border-b-2 bg-black w-full z-20 fixed top-0"
+    >
       <nav
         class="flex items-center max-w-350 py-[20px] mx-auto justify-between text-[18px]"
       >
@@ -18,31 +20,43 @@
           </p>
         </div>
         <div class="lg:flex gap-[40px] hidden">
-          <p
-            class="cursor-pointer text-blue-400"
-          >
+          <a href="./Home.html">
+            <p
+            class="cursor-pointer text-blue-400 hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
+            >
             Home
           </p>
+        </a>
+        <a href="./Frontend_Path.html">
           <p
-            class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
+          class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
           >
-            Frontend Path
-          </p>
-          <p
-            class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
-          >
-            Backend Path
-          </p>
-          <p
-            class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
-          >
-            Flutter Path
-          </p>
-          <p
-            class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
-          >
-            Famous Developers
-          </p>
+          Frontend Path
+        </p>
+      </a>
+      <a href="./Backend_Path.html">
+        <p
+        class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
+        >
+        Backend Path
+      </p>
+    </a>
+    <a href="./Flutter_Path.html">
+
+      <p
+      class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
+      >
+      Flutter Path
+    </p>
+  </a>
+  <a href="./Famous_Developers.htm">
+
+    <p
+    class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
+    >
+    Famous Developers
+  </p>
+</a>
         </div>
 
         <div class="lg:flex gap-[10px] hidden items-center">
@@ -68,6 +82,9 @@
       </nav>
     </header>
 
+    <section
+      class="bg-[url(./img/cod.webp)] bg-cover bg-center bg-no-repeat"
+    ></section>
     <section
       class="mt-20 flex items-center lg:pb-20 lg:pt-10 justify-center bg-gradient-to-t lg:p-15 from-[#181B20FF]"
     >
@@ -199,66 +216,145 @@
       </div>
     </section>
 
-  <section class="relative p-5 lg:p-20 flex items-center justify-center bg-[url(./img/sit.webp)] bg-no-repeat bg-cover bg-center w-full   overflow-hidden">
-  <style>
-    @keyframes gradientMove {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-  </style>
+    <section
+      class="relative p-5 lg:p-30 flex items-center justify-center bg-[url(./img/sit.webp)]  bg-no-repeat bg-cover bg-center w-full overflow-hidden"
+    >
+      <style>
+        @keyframes gradientMove {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+      </style>
 
-  <div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[900px] h-[900px] rounded-full bg-blue-500/10 blur-3xl"></div>
+      <div
+        class="absolute -top-40 left-1/2 -translate-x-1/2 w-[900px] h-[900px] rounded-full bg-blue-500/10 blur-3xl"
+      ></div>
 
-  <div class="relative z-10 text-center max-w-3xl px-6">
-    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
-      Ready to Forge<br />Your Path?
-    </h1>
-
-    <p class="text-gray-400 mb-10">
-      Discover detailed roadmaps for Frontend, Backend,
-      and Flutter development. Your future in tech starts here.
-    </p>
-
-    <div class="flex flex-wrap justify-center gap-6">
-      <button
-        class="px-8 py-3 rounded-full font-medium text-white
-        bg-gradient-to-r from-cyan-400 via-blue-500 via-indigo-500 to-purple-500
-        bg-[length:400%_400%]
-        animate-[gradientMove_6s_linear_infinite]
-        hover:animate-[gradientMove_1.5s_linear_infinite]
-        shadow-[0_0_30px_rgba(59,130,246,0.6)]
-        hover:scale-110 transition-transform"
+      <div
+        class="relative flex-col flex gap-[20px] z-10 text-center max-w-3xl px-6"
       >
-        Frontend Path
-      </button>
+        <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+          Ready to Forge<br />Your Path?
+        </h1>
 
-      <button
-        class="px-8 py-3 rounded-full font-medium text-white
-        bg-gradient-to-r from-pink-500 via-rose-500 via-orange-400 to-yellow-400
-        bg-[length:400%_400%]
-        animate-[gradientMove_6s_linear_infinite]
-        hover:animate-[gradientMove_1.5s_linear_infinite]
-        shadow-[0_0_30px_rgba(244,114,182,0.6)]
-        hover:scale-110 transition-transform"
-      >
-        Backend Path
-      </button>
+        <p class="text-gray-400 text-[19px] mb-10">
+          Discover detailed roadmaps for Frontend, Backend, and Flutter
+          development. Your future in tech starts here.
+        </p>
 
-      <button
-        class="px-8 py-3 rounded-full font-medium text-white
-        bg-gradient-to-r from-emerald-400 via-green-500 via-teal-400 to-cyan-400
-        bg-[length:400%_400%]
-        animate-[gradientMove_6s_linear_infinite]
-        hover:animate-[gradientMove_1.5s_linear_infinite]
-        shadow-[0_0_30px_rgba(52,211,153,0.6)]
-        hover:scale-110 transition-transform"
+        <div class="flex flex-wrap justify-center gap-6">
+          <button
+            class="px-8 py-3 rounded-full font-medium text-white bg-gradient-to-r from-cyan-400 via-blue-500 via-indigo-500 to-purple-500 bg-[length:400%_400%] animate-[gradientMove_6s_linear_infinite] hover:animate-[gradientMove_1.5s_linear_infinite] shadow-[0_0_30px_rgba(59,130,246,0.6)] hover:scale-110 transition-transform"
+          >
+            Frontend Path
+          </button>
+
+          <button
+            class="px-8 py-3 rounded-full font-medium text-white bg-gradient-to-r from-pink-500 via-rose-500 via-orange-400 to-yellow-400 bg-[length:400%_400%] animate-[gradientMove_6s_linear_infinite] hover:animate-[gradientMove_1.5s_linear_infinite] shadow-[0_0_30px_rgba(244,114,182,0.6)] hover:scale-110 transition-transform"
+          >
+            Backend Path
+          </button>
+
+          <button
+            class="px-8 py-3 rounded-full font-medium text-white bg-gradient-to-r from-emerald-400 via-green-500 via-teal-400 to-cyan-400 bg-[length:400%_400%] animate-[gradientMove_6s_linear_infinite] hover:animate-[gradientMove_1.5s_linear_infinite] shadow-[0_0_30px_rgba(52,211,153,0.6)] hover:scale-110 transition-transform animate-fadein"
+          >
+            Flutter Path
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="hidden lg:block max-w-300 mx-auto p-5 mt-20">
+      <div
+        class="flex flex-col lg:gap-0 gap-[30px] justify-between lg:flex-row"
       >
-        Flutter Path
-      </button>
+        <div class="flex flex-col gap-[20px]">
+          <div class="lg:flex items-center gap-[10px] cursor-pointer hidden">
+            <img src="./imagesosaf/programmer.png" alt="" />
+            <p class="text-[24px] text-[#5A71E2FF] items-center font-semibold">
+              Choose Your Programming Path
+            </p>
+          </div>
+          <p class="text-[#BDC2CBFF]">
+            Guiding you through the exciting world of <br />
+            programming paths.
+          </p>
+          <div class="flex items-center gap-[30px]">
+            <img src="./img/lucide-Instagram-Outlined.svg" alt="" />
+            <img src="./img/lucide-Facebook-Outlined.svg" alt="" />
+            <img src="./img/lucide-X-Outlined.svg" alt="" />
+          </div>
+        </div>
+        <div class="flex flex-col gap-[20px]">
+          <p class="font-black">Paths</p>
+          <p class="text-[#BDC2CBFF]">Frontend Path</p>
+          <p class="text-[#BDC2CBFF]">Backend Path</p>
+          <p class="text-[#BDC2CBFF]">Flutter Path</p>
+          <p class="text-[#BDC2CBFF]">Famous Developers</p>
+        </div>
+        <div class="flex flex-col gap-[20px]">
+          <p class="font-black">Explore</p>
+          <p class="text-[#BDC2CBFF]">Famous Developers</p>
+          <p class="text-[#BDC2CBFF]">Blog</p>
+          <p class="text-[#BDC2CBFF]">FAQs</p>
+        </div>
+        <div class="flex flex-col gap-[20px]">
+          <p class="font-black">Company</p>
+          <p class="text-[#BDC2CBFF]">About Us</p>
+          <p class="text-[#BDC2CBFF]">Contact</p>
+          <p class="text-[#BDC2CBFF]">Privacy Policy</p>
+          <p class="text-[#BDC2CBFF]">Terms of Service</p>
+        </div>
+      </div>
+    </footer>
+    <hr class="mt-25 text-[#80808061]" />
+    <div class="hidden lg:flex flex-col gap-[40px] items-center mt-15">
+      <p>© 2026 Choose Your Programming Path. All rights reserved.</p>
     </div>
-  </div>
-</section>
+    <div class="lg:hidden flex gap-[20px]"></div>
+    <footer
+      class="lg:hidden   flex gap-4 bg-white/10 backdrop-blur-xl p-4 shadow-2xl border border-white/10"
+    >
+      <div
+        class="group flex h-16 w-16 cursor-pointer flex-col items-center justify-center rounded-xl text-zinc-400 transition-all duration-300 hover:-translate-y-3 hover:bg-white/20 hover:text-white hover:shadow-xl"
+      >
+        <span class="text-xl">🏠</span>
+        <span class="text-xs mt-1">Home</span>
+      </div>
 
+      <div
+        class="group flex h-16 w-16 cursor-pointer flex-col items-center justify-center rounded-xl text-zinc-400 transition-all duration-300 hover:-translate-y-3 hover:bg-white/20 hover:text-white hover:shadow-xl"
+      >
+        <span class="text-xl">💻</span>
+        <span class="text-xs mt-1">Frontend</span>
+      </div>
+
+      <div
+        class="group flex h-16 w-16 cursor-pointer flex-col items-center justify-center rounded-xl text-zinc-400 transition-all duration-300 hover:-translate-y-3 hover:bg-white/20 hover:text-white hover:shadow-xl"
+      >
+        <span class="text-xl">📱</span>
+        <span class="text-xs mt-1">Flutter</span>
+      </div>
+
+      <div
+        class="group flex h-16 w-16 cursor-pointer flex-col items-center justify-center rounded-xl text-zinc-400 transition-all duration-300 hover:-translate-y-3 hover:bg-white/20 hover:text-white hover:shadow-xl"
+      >
+        <span class="text-xl">🗄</span>
+        <span class="text-xs mt-1">Backend</span>
+      </div>
+
+      <div
+        class="group flex h-16 w-16 cursor-pointer flex-col items-center justify-center rounded-xl text-zinc-400 transition-all duration-300 hover:-translate-y-3 hover:bg-white/20 hover:text-white hover:shadow-xl"
+      >
+        <span class="text-xl">👥</span>
+        <span class="text-xs mt-1">Devs</span>
+      </div>
+    </footer>
   </body>
 </html>
