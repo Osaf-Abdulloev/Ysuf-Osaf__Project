@@ -1,51 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
-    <link rel="stylesheet" href="./output.css">
-</head>
-<body class="bg-[#0f0f0f] text-white">
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="bg-[#0f0f0f] text-white">
     <header class="border-[#272727] border-b-2">
       <nav
         class="flex items-center max-w-350 py-[20px] mx-auto justify-between text-[18px]"
       >
         <div class="lg:flex items-center gap-[10px] cursor-pointer hidden">
           <img src="./imagesosaf/programmer.png" alt="" />
-          <p
-            class="text-[24px] text-blue-200 font-semibold"
-          >
+          <p class="text-[24px] text-blue-200 font-semibold">
             Choose Your Programming Path
           </p>
         </div>
 
-      <div class="lg:flex gap-[40px] hidden">
+        <div class="lg:flex gap-[40px] hidden">
           <a href="./Home.html">
-            <p class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]">
+            <p
+              class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
+            >
               Home
             </p>
           </a>
           <a href="./Frontend_Path.html">
-            <p class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]">
+            <p
+              class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
+            >
               Frontend Path
             </p>
           </a>
           <a href="./Backend_Path.html">
-            <p class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]">
+            <p
+              class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
+            >
               Backend Path
             </p>
           </a>
-            <a href="./Flutter_Path.html">
-              <p class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]">
-                Flutter Path
-              </p>
-            </a>
-            <a href="./Famous_Developers.htm">
-              <p class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]">
-                Famous Developers
-              </p>
-            </a>
+          <a href="./Flutter_Path.html">
+            <p
+              class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
+            >
+              Flutter Path
+            </p>
+          </a>
+          <a href="./Famous_Developers.htm">
+            <p
+              class="cursor-pointer hover:text-blue-400 transition-all hover:duration-500 hover:mt-[-5px]"
+            >
+              Famous Developers
+            </p>
+          </a>
         </div>
 
         <div class="lg:flex gap-[10px] hidden items-center">
@@ -70,66 +78,115 @@
       </nav>
     </header>
 
-    <div class="mt-[50px] flex justify-center max-w-300 mx-auto p-3 lg:p-0 relative">
-        <div class="bg-[#60606070] border-2 border-[#9a9a9aa2] p-[35px] rounded-2xl z-[2]">
-            <h1 class="text-[30px] text-center font-bold pb-[2px] lg:text-[40px] hidden lg:flex">Join Our Community</h1>
-            <h1 class="text-[34px] text-center font-bold pb-[2px] lg:hidden">Create Your DevPath Account</h1>
+    <div
+      class="mt-[50px] flex justify-center max-w-300 mx-auto p-3 lg:p-0 relative"
+    >
+      <div
+        class="absolute inset-0 blur-3xl opacity-30 bg-gradient-to-r from-[#5A71E2] via-[#55C1F6] to-[#D495F3] rounded-3xl"
+      ></div>
 
-            <p class="text-[16px] text-gray-400 pb-[25px] text-center">Start your programming journey with us today.</p>
+      <div
+        class="relative bg-[#60606060] backdrop-blur-xl border border-white/20 p-[35px] rounded-2xl z-[2] shadow-2xl"
+      >
+        <h1
+          class="text-[30px] text-center font-bold pb-[2px] lg:text-[40px] hidden lg:flex bg-gradient-to-r from-[#5A71E2] to-[#55C1F6] bg-clip-text text-transparent"
+        >
+          Join Our Community
+        </h1>
+        <h1
+          class="text-[34px] text-center font-bold pb-[2px] lg:hidden bg-gradient-to-r from-[#5A71E2] to-[#55C1F6] bg-clip-text text-transparent"
+        >
+          Create Your DevPath Account
+        </h1>
 
-            <div class="pt-[30px]">
-                <div>
-                    <p class="pb-[5px]">Username</p>
-                    <div class="flex items-center gap-[10px] bg-[#101010] py-[10px] pl-[20px] pr-[30px] rounded-[30px] border-2 border-[#494949]">
-                        <input placeholder="Choose a unique username" type="text">
-                    </div>
-                </div>
+        <p class="text-[16px] text-gray-300 pb-[25px] text-center">
+          Start your programming journey with us today.
+        </p>
 
-
-                <div>
-                    <p class="pt-[10px] pb-[5px]">Email</p>
-                    <div class="flex items-center gap-[10px] bg-[#101010] py-[10px] pl-[20px] pr-[30px] rounded-[30px] border-2 border-[#494949]">
-                        <input placeholder="your@email.com" type="email">
-                    </div>
-                </div>
-
-                <div>
-                    <p class="pt-[10px] pb-[5px]">Password</p>
-                    <div class="flex items-center gap-[10px] bg-[#101010] py-[10px] pl-[20px] pr-[30px] rounded-[30px] border-2 border-[#494949]">
-                        <input placeholder="Create a strong password" type="password">
-                    </div>
-                </div>
-
-                <div>
-                    <p class="pt-[10px] pb-[5px]">Preferred Programming Path</p>
-                    <div class="flex items-center gap-[10px] bg-[#101010] py-[10px] pl-[20px] pr-[30px] rounded-[30px] border-2 border-[#494949]">
-                        <select class="flex justify-between w-[100%] text-gray-400" name="" id="">
-                            <option value="" disabled selected hidden>
-                                Select your path
-                            </option>
-
-                            <option class="text-gray-700" value="">Frontend</option>
-                            <option class="text-gray-700" value="">Backend</option>
-                            <option class="text-gray-700" value="">Flutter</option>
-                        </select>
-                    </div>
-                </div>
+        <div class="pt-[30px] space-y-[18px]">
+          <div>
+            <p class="pb-[5px] text-gray-200">Username</p>
+            <div
+              class="flex items-center bg-[#101010] py-[12px] pl-[20px] pr-[30px] rounded-[30px] border border-[#494949] focus-within:border-[#5A71E2] transition"
+            >
+              <input
+                class="bg-transparent w-full outline-none text-white placeholder-gray-500"
+                placeholder="Choose a unique username"
+                type="text"
+              />
             </div>
+          </div>
 
-            <button class="py-[10px] px-[110px] mx-auto block rounded-[10px] mt-[25px] bg-gradient-to-r from-[#5A71E2FF] to-[#55C1F6FF] hover:from-[#2b607a] hover:to-[#354595] hover:scale-105 hover:transition-colors hover:duration-600 hover:ease-in-out transition-all shadow-lg hover:text-gray-200">Login</button>
+          <div>
+            <p class="pb-[5px] text-gray-200">Email</p>
+            <div
+              class="flex items-center bg-[#101010] py-[12px] pl-[20px] pr-[30px] rounded-[30px] border border-[#494949] focus-within:border-[#55C1F6] transition"
+            >
+              <input
+                class="bg-transparent w-full outline-none text-white placeholder-gray-500"
+                placeholder="your@email.com"
+                type="email"
+              />
+            </div>
+          </div>
 
-            <p class="pt-[20px] text-center">Already have an account ?
-                <a target="_blank" href="./login.html">
-                    <span class="text-blue-500">
-                        Login here
-                    </span>
-                </a>
-            </p>
+          <div>
+            <p class="pb-[5px] text-gray-200">Password</p>
+            <div
+              class="flex items-center bg-[#101010] py-[12px] pl-[20px] pr-[30px] rounded-[30px] border border-[#494949] focus-within:border-[#D495F3] transition"
+            >
+              <input
+                class="bg-transparent w-full outline-none text-white placeholder-gray-500"
+                placeholder="Create a strong password"
+                type="password"
+              />
+            </div>
+          </div>
+
+          <div>
+            <p class="pb-[5px] text-gray-200">Preferred Programming Path</p>
+            <div
+              class="flex items-center bg-[#101010] py-[12px] pl-[20px] pr-[30px] rounded-[30px] border border-[#494949] focus-within:border-[#5A71E2] transition"
+            >
+              <select
+                class="bg-transparent w-full outline-none text-gray-400 cursor-pointer"
+              >
+                <option value="" disabled selected hidden>
+                  Select your path
+                </option>
+                <option class="text-gray-700">Frontend</option>
+                <option class="text-gray-700">Backend</option>
+                <option class="text-gray-700">Flutter</option>
+              </select>
+            </div>
+          </div>
         </div>
-        
-        <div class="w-[256px] h-[256px] rounded-[100%] bg-[#5A71E24D] hidden lg:flex absolute left-[0px]"></div>
-        <div class="w-[224px] h-[224px] rounded-[100%] bg-[#D495F34D] hidden lg:flex absolute left-[740px] top-[250px] z-[1]"></div>
-        <div class="w-[288px] h-[288px] rounded-[100%] bg-[#55C1F64D] hidden lg:flex absolute left-[820px] top-[620px]"></div>
+
+        <button
+          class="relative py-[12px] px-[110px] mx-auto block rounded-xl mt-[30px] bg-gradient-to-r from-[#5A71E2] to-[#55C1F6] hover:scale-105 hover:shadow-[0_0_25px_#5A71E2] transition-all duration-300 text-white font-semibold"
+        >
+          Login
+        </button>
+
+        <p class="pt-[20px] text-center text-gray-300">
+          Already have an account ?
+          <a target="_blank" href="./login.html">
+            <span class="text-blue-400 hover:text-blue-300 transition">
+              Login here
+            </span>
+          </a>
+        </p>
+      </div>
+
+      <div
+        class="w-[256px] h-[256px] rounded-full bg-[#5A71E24D] hidden lg:flex absolute left-[0px] blur-2xl"
+      ></div>
+      <div
+        class="w-[224px] h-[224px] rounded-full bg-[#D495F34D] hidden lg:flex absolute left-[740px] top-[250px] blur-2xl"
+      ></div>
+      <div
+        class="w-[288px] h-[288px] rounded-full bg-[#55C1F64D] hidden lg:flex absolute left-[820px] top-[620px] blur-2xl"
+      ></div>
     </div>
-</body>
+  </body>
 </html>
